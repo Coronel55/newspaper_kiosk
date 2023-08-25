@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+    body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 255, 174);
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+  }
+  
+  .flecha {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 20px;
+  }
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a id="pagprevia" onclick="actualizar1()" class="flecha">⬅️</a>
+        <iframe id="contenido" src="https://www.abc.com.py" width="100%" height="600px" frameborder="0"></iframe>
+        <a id="pagsiguiente" onclick="actualizar2()" class="flecha">➡️</a>
+      </div>
+      <script src="prueba.js"></script>
+</body>
+</html>
